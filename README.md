@@ -23,7 +23,7 @@ with the code due to constraints and limitations of different robotic arms)
 5. Mouse and Keyboard (optional)
 6. USB Micro B Cable (to connect xArm to Raspberry Pi)
 
-###Other needed installation <br>
+### Other needed installation <br>
 (Suggestion: use virtual enviroment)
 1. Python <br>
 ``pip install python`` OR <br>
