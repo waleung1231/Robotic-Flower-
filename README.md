@@ -23,3 +23,15 @@ with the code due to constraints and limitations of different robotic arms)
 5. Mouse and Keyboard (optional)
 6. USB Micro B Cable (to connect xArm to Raspberry Pi)
 
+###Other needed installation <br>
+(Suggestion: use virtual enviroment)
+1. Python <br>
+``pip install python`` OR <br>
+``pip install python3`` (dependent on your OS)
+2.  OpenCV <br>
+``pip install opencv-python``
+3. xArm <br>
+``pip install xarm``
+4. Tensorflow <br>
+``pip install tensorflow``
+**Note**: Run these installs via the terminal, then import these packages on the text editor you are utilizing.
