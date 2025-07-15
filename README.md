@@ -8,6 +8,22 @@ Ethan Flores - https://www.linkedin.com/in/etflores1/ <br>
 
 ## How Does It Work? <br>
 
+### 📁 File Descriptions
+
+| File Name                | Purpose                                                                 |
+|-------------------------|--------------------------------------------------------------------------|
+| `smile_training.py`      | Trains the custom CNN model for smile detection.                        |
+| `test_train_model.py`    | Tests the trained model on example images.                              |
+| `CameraTest.py`          | Verifies the camera is functioning correctly and displays real-time feed.|
+| `smile_detection_robot.py` | Runs smile detection using the trained model and controls the xArm.    |
+| `roboticflower.py`       | Contains high-level robotic flower behavior logic and servo positioning.|
+
+### ▶️ Step 1: Activate Virtual Environment
+
+```bash
+cd /path/to/your/project
+source myenv/bin/activate
+
 **Note**: Before getting this project to work, please read the [requirements](#requirements) below. <br>
 
 The concept of the project is fairly simple - honestly straightfoward - have your Raspberry Pi camera set up with **good** lighting. If one person is in the frame, smile. The facial recognition program will create a green box around your face, signifying that you are smiling. The program will have a red box around your face if it doesn't detect you smiling. If you are smiling, but a red box is still present, be sure to position your face to the camera more clearly (you might have to adjust lighting or the camera angle). When the box is green, the flower will bloom. When the box is red, the flower will wilt. **The key takeaway is: KEEP SMILING!!!** <br>
