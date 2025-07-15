@@ -36,6 +36,45 @@ with the code due to constraints and limitations of different robotic arms)
 ``pip install tensorflow``
 **Note**: Run these installs via the terminal, then import these packages on the text editor you are utilizing.
 
+### How to setup a virtual enviroment <br>
+For this project due to the amount of packages, and imports, I personally strongly suggest doing this project in a virtural enviroment. <br>
+
+### Setting Up a Virtual Environment on Raspberry Pi
+(do this within the terminal)
+1.    **Make sure your Raspberry Pi's package list is up-to-date:**
+   ```bash
+   sudo apt update
+   sudo apt upgrade
+   ```
+2. **Install Python3 and venv** <br>
+This will allow you to create your virtual enviroments.
+```bash
+sudo apt install python3 python3-venv
+```
+3.** Create and Navigating to Your Virtual Environment **<br>
+Navigate to the directory that you want your project to me located in.
+```bash
+cd/path/to/project
+python3 -m venv myenv
+```
+4. **Activate the Virtual Environment** <br>
+Run the command:
+```bash
+source myenv/bin/activate
+```
+If you're already in your virtual environment directory file, you can just do:
+```bash
+source bin/activate
+```
+5. **Install Dependencies/Libraries** <br>
+We've specified the required libraries [here](#setting-up-a-virtual-environment-on-raspberry-pi).
+Install these within your virtual environment.
+6. **Retrieve Source Code** <br>
+Run the ``git clone`` command in terminal using this repository.
+7. **Running the Code in Virtual Environment** <br>
+Run the command ``python code.py`` (or whatever your .py file is named). <br>
+**Note**: If you want to terminate your current run, you would have to close the terminal, then <br>
+reopen and navigate to where your virtual environment is located. Then, run ``source bin/activate``. <br>
 
 ### Error You Might Run Into <br>
 ### Error 1: <br>
@@ -57,6 +96,13 @@ Next step is to install the api, so again type this in the terminal: <br>
 
 Then after everything is installed we will reboot the raspberry pi, so in terminal type: <br>
 ``sudo reboot`` <br>
+
+#### Other solutions to try
+Verify Device Connection: <br>
+Ensure that the device (arm/controller) is properly connected to the Raspberry Pi via USB. <br>
+Use the command: <br>
+``lsusb`` <br>
+
 
 
 
