@@ -23,6 +23,8 @@ Ethan Flores - https://www.linkedin.com/in/etflores1/ <br>
 ```bash
 cd /path/to/your/project
 source myenv/bin/activate
+```
+
 
 **Note**: Before getting this project to work, please read the [requirements](#requirements) below. <br>
 
