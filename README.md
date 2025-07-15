@@ -1,5 +1,5 @@
 # Robotic-Flower (HDSI Lab 3.0)
-An interactive robotic flower that uses a custom CNN to recognize facial expressions and respond with servo movements, built with Raspberry Pi, TensorFlow, and XArm.
+An interactive robotic flower that uses a custom CNN to recognize facial expressions and respond with servo movements, built with Raspberry Pi, TensorFlow, and XArm. <br>
 Supervisor: Saura Naderi - snaderi@ucsd.edu <br>
 Main Contributor: Wan-Rong (Emma) Leung - https://www.linkedin.com/in/wan-rong-leung-228650271/ <br>
 Other Contributors: <br>
