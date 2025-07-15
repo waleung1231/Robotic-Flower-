@@ -118,6 +118,17 @@ This step basically make sures that the model works as expected, before connecti
 python test_train_model.py
 ```
 
+### ▶️ Step 5: Run Smile Detection + Robotic Flower
+
+Make sure: <br>
+- Your xArm is connected via USB <br>
+- Webcam has good lighting <br>
+- You’re using the trained `smile_model` <br>
+
+```bash
+python smile_detection_robot.py
+```
+
 ## Error You Might Run Into <br>
 ### Error 1: <br>
 ModuleNotFoundError: No module named ‘hidapi’ <br>
