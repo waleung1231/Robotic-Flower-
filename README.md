@@ -35,3 +35,30 @@ with the code due to constraints and limitations of different robotic arms)
 4. Tensorflow <br>
 ``pip install tensorflow``
 **Note**: Run these installs via the terminal, then import these packages on the text editor you are utilizing.
+
+
+### Error You Might Run Into <br>
+### Error 1: <br>
+ModuleNotFoundError: No module named ‘hidapi’ <br>
+Type this into the terminal:<br>
+sudo nano /etc/udev/rules.d/99-usbarm.rules <br>
+
+##### Type the following code into the page: <br>
+``SUBSYSTEM=="usb", ATTR{idVendor}=="0483", ATTR{idProduct}=="5750", MODE="0666", GROUP="plugdev"``<br>
+
+##### Control +S on keyboard to save and close the window <br>
+
+Open the regular terminal again and type the following code: <br>
+sudo udevadm control --reload-rules <br>
+sudo udevadm trigger <br>
+
+Next step is to install the api, so again type this in the terminal: <br>
+pip install hidapi <br>
+
+Then after everything is installed we will reboot the raspberry pi, so in terminal type: <br>
+sudo reboot <br>
+
+
+
+
+
