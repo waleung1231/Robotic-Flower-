@@ -32,11 +32,18 @@ python CameraTest.py
 ```
 ### ▶️ Step 3: Train the CNN Model
 
-Make sure your dataset is prepared in two folders: `smile/` and `no_smile/`.
+Make sure your dataset is prepared in two folders: `smile/` and `no_smile/`. <br>
+When you run the code it will allow you to collect smiling and not smiling images through the webcam. <br>
+Take atleast 100 photos for both smiling and not smiling photo <br>
+##### Press s on the key board to capture a smiling photo <br>
+##### Press n on the key board to capture a not smiling photo <br>
+##### Press q when you finish taking photos, and it will start to train the model base on the pictures you just took
 
 ```bash
 python smile_training.py
 ```
+### ▶️ Step 4: Test the trained model 
+
 
 **Note**: Before getting this project to work, please read the [requirements](#requirements) below. <br>
 
