@@ -6,7 +6,6 @@ Other Contributors: <br>
 Adrian Apsay - https://www.linkedin.com/in/adrianapsay/ <br>
 Ethan Flores - https://www.linkedin.com/in/etflores1/ <br>
 
-## How Does It Work? <br>
 
 ### 📁 File Descriptions
 
@@ -17,32 +16,6 @@ Ethan Flores - https://www.linkedin.com/in/etflores1/ <br>
 | `CameraTest.py`          | Verifies the camera is functioning correctly and displays real-time feed.|
 | `smile_detection_robot.py` | Runs smile detection using the trained model and controls the xArm.    |
 | `roboticflower.py`       | Contains high-level robotic flower behavior logic and servo positioning.|
-
-### ▶️ Step 1: Activate Virtual Environment
-
-```bash
-cd /path/to/your/project
-source myenv/bin/activate
-```
-
-### ▶️ Step 2: Check Webcam (Optional)
-
-```bash
-python CameraTest.py
-```
-### ▶️ Step 3: Train the CNN Model
-
-Make sure your dataset is prepared in two folders: `smile/` and `no_smile/`. <br>
-When you run the code it will allow you to collect smiling and not smiling images through the webcam. <br>
-Take atleast 100 photos for both smiling and not smiling photo <br>
-##### Press s on the key board to capture a smiling photo <br>
-##### Press n on the key board to capture a not smiling photo <br>
-##### Press q when you finish taking photos, and it will start to train the model base on the pictures you just took
-
-```bash
-python smile_training.py
-```
-### ▶️ Step 4: Test the trained model 
 
 
 **Note**: Before getting this project to work, please read the [requirements](#requirements) below. <br>
@@ -115,6 +88,35 @@ reopen and navigate to where your virtual environment is located. Then, run ``so
 
 ## How to run the code 
 
+### ▶️ Step 1: Activate Virtual Environment
+
+```bash
+cd /path/to/your/project
+source myenv/bin/activate
+```
+
+### ▶️ Step 2: Check Webcam (Optional)
+
+```bash
+python CameraTest.py
+```
+### ▶️ Step 3: Train the CNN Model
+
+Make sure your dataset is prepared in two folders: `smile/` and `no_smile/`. <br>
+When you run the code it will allow you to collect smiling and not smiling images through the webcam. <br>
+Take atleast 100 photos for both smiling and not smiling photo <br>
+##### Press s on the key board to capture a smiling photo <br>
+##### Press n on the key board to capture a not smiling photo <br>
+##### Press q when you finish taking photos, and it will start to train the model base on the pictures you just took
+
+```bash
+python smile_training.py
+```
+### ▶️ Step 4: Test the trained model (Optional) <br>
+This step basically make sures that the model works as expected, before connecting it with the robotic flower. <br>
+```bash
+python test_train_model.py
+```
 
 ## Error You Might Run Into <br>
 ### Error 1: <br>
