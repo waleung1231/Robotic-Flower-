@@ -25,6 +25,18 @@ cd /path/to/your/project
 source myenv/bin/activate
 ```
 
+### ▶️ Step 2: Check Webcam (Optional)
+
+```bash
+python CameraTest.py
+```
+### ▶️ Step 3: Train the CNN Model
+
+Make sure your dataset is prepared in two folders: `smile/` and `no_smile/`.
+
+```bash
+python smile_training.py
+```
 
 **Note**: Before getting this project to work, please read the [requirements](#requirements) below. <br>
 
