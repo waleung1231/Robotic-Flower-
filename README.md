@@ -49,14 +49,14 @@ sudo nano /etc/udev/rules.d/99-usbarm.rules <br>
 ##### Control +S on keyboard to save and close the window <br>
 
 Open the regular terminal again and type the following code: <br>
-sudo udevadm control --reload-rules <br>
-sudo udevadm trigger <br>
+``sudo udevadm control --reload-rules`` <br>
+``sudo udevadm trigger`` <br>
 
 Next step is to install the api, so again type this in the terminal: <br>
-pip install hidapi <br>
+``pip install hidapi`` <br>
 
 Then after everything is installed we will reboot the raspberry pi, so in terminal type: <br>
-sudo reboot <br>
+``sudo reboot`` <br>
 
 
 
