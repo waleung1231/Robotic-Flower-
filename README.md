@@ -36,7 +36,7 @@ with the code due to constraints and limitations of different robotic arms)
 ``pip install tensorflow``
 **Note**: Run these installs via the terminal, then import these packages on the text editor you are utilizing.
 
-### How to setup a virtual enviroment <br>
+## How to setup a virtual enviroment <br>
 For this project due to the amount of packages, and imports, I personally strongly suggest doing this project in a virtural enviroment. <br>
 
 ### Setting Up a Virtual Environment on Raspberry Pi
@@ -76,7 +76,7 @@ Run the command ``python code.py`` (or whatever your .py file is named). <br>
 **Note**: If you want to terminate your current run, you would have to close the terminal, then <br>
 reopen and navigate to where your virtual environment is located. Then, run ``source bin/activate``. <br>
 
-### Error You Might Run Into <br>
+## Error You Might Run Into <br>
 ### Error 1: <br>
 ModuleNotFoundError: No module named ‘hidapi’ <br>
 Type this into the terminal:<br>
