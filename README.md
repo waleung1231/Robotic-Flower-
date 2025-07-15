@@ -82,7 +82,7 @@ ModuleNotFoundError: No module named ‘hidapi’ <br>
 Type this into the terminal:<br>
 ```bash
 sudo nano /etc/udev/rules.d/99-usbarm.rules
-``` <br>
+``` 
 
 ##### Type the following code into the page: <br>
 ```bash
