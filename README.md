@@ -1,4 +1,4 @@
-# Robotic-Flower-
+# Robotic-Flower (HDSI Lab 3.0)
 An interactive robotic flower that uses a custom CNN to recognize facial expressions and respond with servo movements, built with Raspberry Pi, TensorFlow, and XArm.
 Supervisor: Saura Naderi - snaderi@ucsd.edu
 Main Contributor: Wan-Rong (Emma) Leung - https://www.linkedin.com/in/wan-rong-leung-228650271/
@@ -75,6 +75,9 @@ Run the ``git clone`` command in terminal using this repository.
 Run the command ``python code.py`` (or whatever your .py file is named). <br>
 **Note**: If you want to terminate your current run, you would have to close the terminal, then <br>
 reopen and navigate to where your virtual environment is located. Then, run ``source bin/activate``. <br>
+
+## How to run the code 
+
 
 ## Error You Might Run Into <br>
 ### Error 1: <br>
