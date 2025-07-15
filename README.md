@@ -87,27 +87,27 @@ sudo nano /etc/udev/rules.d/99-usbarm.rules
 ##### Type the following code into the page: <br>
 ```bash
 SUBSYSTEM=="usb", ATTR{idVendor}=="0483", ATTR{idProduct}=="5750", MODE="0666", GROUP="plugdev"
-```<br>
+```
 
 ##### Control +S on keyboard to save and close the window <br>
 
 Open the regular terminal again and type the following code: <br>
 ```bash
 sudo udevadm control --reload-rules
-``` <br>
+```
 ```bash
 sudo udevadm trigger
-``` <br>
+```
 
 Next step is to install the api, so again type this in the terminal: <br>
 ```bash
 pip install hidapi
-``` <br>
+``` 
 
 Then after everything is installed we will reboot the raspberry pi, so in terminal type: <br>
 ```bash
 sudo reboot
-``` <br>
+```
 
 #### Other solutions to try
 Verify Device Connection: <br>
