@@ -24,7 +24,7 @@ Ethan Flores - https://www.linkedin.com/in/etflores1/ <br>
 - [🧪 Setting Up a Virtual Environment](#how-to-setup-a-virtual-enviroment)
 - [🚀 How to Run the Code](#how-to-run-the-code)
 - [💻 Allowing Code to Run on Startup](#allowing-code-to-run-on-startup)
-- [📘 Cirriculum](#cirriculum)
+- [📘 Curriculum](#curriculum)
 - [🧯 Error You Might Run Into](#error-you-might-run-into)
 
 ### 📁 Code File Descriptions
@@ -147,7 +147,7 @@ python smile_detection_robot.py
 ## Allowing Code to Run on Startup
 Follow the steps in the powerpoint that can be found in the Automation Start Folder or click on this [link](https://docs.google.com/presentation/d/1AHJaK_VuXFnXBWXExjItuANiGQy02uty/edit?usp=sharing&ouid=114420282104442477740&rtpof=true&sd=true)
 
-## Cirriculum
+## Curriculum
 [Assignment 1](https://docs.google.com/document/d/1uK2VAxS7jq1rQKJ1i32wXdaLqmttH0De3USxbChkj1w/edit?usp=sharing) : Learning to Control the Robotic Arm with Code <br>
 [Assignment 2](https://docs.google.com/document/d/1iXz1Xtuj-O6ZBZWiGHLSpi1g6teHSNgaZH2Mlnd2ljo/edit?usp=sharing) : Controlling the Arm Using Code with Keyboard <br>
 [Assignment 3](https://docs.google.com/document/d/1z-oLnOBRUbK3p9RE6ftoe_df_jse7aKJ989VX-nc7QY/edit?usp=sharing) : How to create your own Facial Recognition Model <br>
