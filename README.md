@@ -26,6 +26,18 @@ Ethan Flores - https://www.linkedin.com/in/etflores1/ <br>
 
 The concept of the project is fairly simple - honestly straightfoward - have your Raspberry Pi camera set up with **good** lighting. If one person is in the frame, smile. The facial recognition program will create a green box around your face, signifying that you are smiling. The program will have a red box around your face if it doesn't detect you smiling. If you are smiling, but a red box is still present, be sure to position your face to the camera more clearly (you might have to adjust lighting or the camera angle). When the box is green, the flower will bloom. When the box is red, the flower will wilt. **The key takeaway is: KEEP SMILING!!!** <br>
 
+## 📚 Table of Contents
+
+- [Project Overview](#robotic-flower-hdsi-lab-30)
+- [📁 Code File Descriptions](#-code-file-descriptions)
+- [🛠️ Requirements](#requirements)
+  - [Hardware](#hardware)
+  - [Other needed installation](#other-needed-installation)
+- [🧪 Setting Up a Virtual Environment](#how-to-setup-a-virtual-enviroment)
+- [🚀 How to Run the Code](#how-to-run-the-code)
+- [📘 Cirriculum](#cirriculum)
+- [🧯 Error You Might Run Into](#error-you-might-run-into)
+
 ## Requirements 
 (if you want your own robotic flower) <br>
 ### Hardware 
