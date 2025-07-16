@@ -132,8 +132,10 @@ Make sure: <br>
 ```bash
 python smile_detection_robot.py
 ```
-## Cirriculum
-
+## Cirriculum <br>
+[Assignment 1](https://docs.google.com/document/d/1uK2VAxS7jq1rQKJ1i32wXdaLqmttH0De3USxbChkj1w/edit?usp=sharing) <br>
+[Assignment 2](https://docs.google.com/document/d/1iXz1Xtuj-O6ZBZWiGHLSpi1g6teHSNgaZH2Mlnd2ljo/edit?usp=sharing) <br>
+[Assignment 3](https://docs.google.com/document/d/1z-oLnOBRUbK3p9RE6ftoe_df_jse7aKJ989VX-nc7QY/edit?usp=sharing) <br>
 ## Error You Might Run Into <br>
 ### Error 1: <br>
 ModuleNotFoundError: No module named ‘hidapi’ <br>
