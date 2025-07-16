@@ -1,6 +1,6 @@
 # Robotic-Flower (HDSI Lab 3.0)
 
-This project features an interactive robotic flower that blooms when you smile — blending computer vision, machine learning, and robotics into a real-time, expressive experience. Built using a Raspberry Pi, custom-trained CNN (Convolutional Neural Network) for facial expression recognition, and the HiWonder xArm 1S, the flower reacts to human emotion in a playful, artistic way. <br>
+This project features an interactive robotic flower that blooms when you smile — blending computer vision, tensorflow, machine learning, and robotics into a real-time, expressive experience. Built using a Raspberry Pi, custom-trained CNN (Convolutional Neural Network) for facial expression recognition, and the HiWonder xArm 1S, the flower reacts to human emotion in a playful, artistic way. <br>
 
 The project was developed at the UC San Diego HDSI Lab under the supervision of Saura Naderi and was designed to engage both technical and creative learners through a hands-on machine learning and hardware experience. <br>
 
