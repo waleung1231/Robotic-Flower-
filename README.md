@@ -11,7 +11,7 @@ Adrian Apsay - https://www.linkedin.com/in/adrianapsay/ <br>
 Ethan Flores - https://www.linkedin.com/in/etflores1/ <br>
 
 
-### 📁 File Descriptions
+### 📁 Code File Descriptions
 
 | File Name                | Purpose                                                                 |
 |-------------------------|--------------------------------------------------------------------------|
