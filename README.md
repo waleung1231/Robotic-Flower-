@@ -26,9 +26,9 @@ Ethan Flores - https://www.linkedin.com/in/etflores1/ <br>
 
 The concept of the project is fairly simple - honestly straightfoward - have your Raspberry Pi camera set up with **good** lighting. If one person is in the frame, smile. The facial recognition program will create a green box around your face, signifying that you are smiling. The program will have a red box around your face if it doesn't detect you smiling. If you are smiling, but a red box is still present, be sure to position your face to the camera more clearly (you might have to adjust lighting or the camera angle). When the box is green, the flower will bloom. When the box is red, the flower will wilt. **The key takeaway is: KEEP SMILING!!!** <br>
 
-## Requirements <br>
+## Requirements 
 (if you want your own robotic flower) <br>
-### Hardware <br>
+### Hardware 
 1. Raspberry Pi 3 Board or Above
 2. Webcam (USB A)
 3. HiWonder xArm 1S** (any other robotic arm might not translate well <br>
@@ -37,7 +37,7 @@ with the code due to constraints and limitations of different robotic arms)
 5. Mouse and Keyboard (optional)
 6. USB Micro B Cable (to connect xArm to Raspberry Pi)
 
-### Other needed installation <br>
+### Other needed installation 
 (Suggestion: use virtual enviroment)
 1. Python <br>
 ``pip install python`` OR <br>
@@ -50,7 +50,7 @@ with the code due to constraints and limitations of different robotic arms)
 ``pip install tensorflow``
 **Note**: Run these installs via the terminal, then import these packages on the text editor you are utilizing.
 
-## How to setup a virtual enviroment <br>
+## How to setup a virtual enviroment 
 For this project due to the amount of packages, and imports, I personally strongly suggest doing this project in a virtural enviroment. <br>
 
 ### Setting Up a Virtual Environment on Raspberry Pi
@@ -132,11 +132,11 @@ Make sure: <br>
 ```bash
 python smile_detection_robot.py
 ```
-## Cirriculum <br>
+## Cirriculum
 [Assignment 1](https://docs.google.com/document/d/1uK2VAxS7jq1rQKJ1i32wXdaLqmttH0De3USxbChkj1w/edit?usp=sharing) : Learning to Control the Robotic Arm with Code <br>
 [Assignment 2](https://docs.google.com/document/d/1iXz1Xtuj-O6ZBZWiGHLSpi1g6teHSNgaZH2Mlnd2ljo/edit?usp=sharing) : Controlling the Arm Using Code with Keyboard <br>
 [Assignment 3](https://docs.google.com/document/d/1z-oLnOBRUbK3p9RE6ftoe_df_jse7aKJ989VX-nc7QY/edit?usp=sharing) : How to create your own Facial Recognition Model <br>
-## Error You Might Run Into <br>
+## Error You Might Run Into 
 ### Error : ModuleNotFoundError: No module named ‘hidapi’ <br>
 Type this into the terminal:<br>
 ```bash
