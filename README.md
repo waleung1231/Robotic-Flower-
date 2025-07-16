@@ -142,6 +142,10 @@ Make sure: <br>
 ```bash
 python smile_detection_robot.py
 ```
+
+## Allowing Code to Run on Startup
+Follow the steps in the powerpoint that can be found in the Automation Start Folder or click on this [link](https://docs.google.com/presentation/d/1AHJaK_VuXFnXBWXExjItuANiGQy02uty/edit?usp=sharing&ouid=114420282104442477740&rtpof=true&sd=true)
+
 ## Cirriculum
 [Assignment 1](https://docs.google.com/document/d/1uK2VAxS7jq1rQKJ1i32wXdaLqmttH0De3USxbChkj1w/edit?usp=sharing) : Learning to Control the Robotic Arm with Code <br>
 [Assignment 2](https://docs.google.com/document/d/1iXz1Xtuj-O6ZBZWiGHLSpi1g6teHSNgaZH2Mlnd2ljo/edit?usp=sharing) : Controlling the Arm Using Code with Keyboard <br>
