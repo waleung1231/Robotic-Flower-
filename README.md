@@ -23,6 +23,7 @@ Ethan Flores - https://www.linkedin.com/in/etflores1/ <br>
   - [Other needed installation](#other-needed-installation)
 - [🧪 Setting Up a Virtual Environment](#how-to-setup-a-virtual-enviroment)
 - [🚀 How to Run the Code](#how-to-run-the-code)
+- [💻 Allowing Code to Run on Startup](#allowing-code-to-run-on-startup)
 - [📘 Cirriculum](#cirriculum)
 - [🧯 Error You Might Run Into](#error-you-might-run-into)
 
