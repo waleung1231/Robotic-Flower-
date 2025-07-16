@@ -40,7 +40,7 @@ Ethan Flores - https://www.linkedin.com/in/etflores1/ <br>
 ## Requirements 
 (if you want your own robotic flower) <br>
 ### Hardware 
-1. Raspberry Pi 3 Board or Above
+1. Raspberry Pi 5 (Raspberry Pi OS (64-bit))
 2. Webcam (USB A)
 3. HiWonder xArm 1S** (any other robotic arm might not translate well <br>
 with the code due to constraints and limitations of different robotic arms)
