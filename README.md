@@ -133,9 +133,9 @@ Make sure: <br>
 python smile_detection_robot.py
 ```
 ## Cirriculum <br>
-[Assignment 1](https://docs.google.com/document/d/1uK2VAxS7jq1rQKJ1i32wXdaLqmttH0De3USxbChkj1w/edit?usp=sharing) <br>
-[Assignment 2](https://docs.google.com/document/d/1iXz1Xtuj-O6ZBZWiGHLSpi1g6teHSNgaZH2Mlnd2ljo/edit?usp=sharing) <br>
-[Assignment 3](https://docs.google.com/document/d/1z-oLnOBRUbK3p9RE6ftoe_df_jse7aKJ989VX-nc7QY/edit?usp=sharing) <br>
+[Assignment 1](https://docs.google.com/document/d/1uK2VAxS7jq1rQKJ1i32wXdaLqmttH0De3USxbChkj1w/edit?usp=sharing) : Learning to Control the Robotic Arm with Code <br>
+[Assignment 2](https://docs.google.com/document/d/1iXz1Xtuj-O6ZBZWiGHLSpi1g6teHSNgaZH2Mlnd2ljo/edit?usp=sharing) : Controlling the Arm Using Code with Keyboard <br>
+[Assignment 3](https://docs.google.com/document/d/1z-oLnOBRUbK3p9RE6ftoe_df_jse7aKJ989VX-nc7QY/edit?usp=sharing) : How to create your own Facial Recognition Model <br>
 ## Error You Might Run Into <br>
 ### Error 1: <br>
 ModuleNotFoundError: No module named ‘hidapi’ <br>
