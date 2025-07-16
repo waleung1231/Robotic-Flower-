@@ -1,5 +1,9 @@
 # Robotic-Flower (HDSI Lab 3.0)
-An interactive robotic flower that uses a custom CNN to recognize facial expressions and respond with servo movements, built with Raspberry Pi, TensorFlow, and XArm. <br>
+
+This project features an interactive robotic flower that blooms when you smile — blending computer vision, machine learning, and robotics into a real-time, expressive experience. Built using a Raspberry Pi, custom-trained CNN (Convolutional Neural Network) for facial expression recognition, and the HiWonder xArm 1S, the flower reacts to human emotion in a playful, artistic way. <br>
+
+The project was developed at the UC San Diego HDSI Lab under the supervision of Saura Naderi and was designed to engage both technical and creative learners through a hands-on machine learning and hardware experience. <br>
+
 Supervisor: Saura Naderi - snaderi@ucsd.edu <br>
 Main Contributor: Wan-Rong (Emma) Leung - https://www.linkedin.com/in/wan-rong-leung-228650271/ <br>
 Other Contributors: <br>
@@ -128,6 +132,7 @@ Make sure: <br>
 ```bash
 python smile_detection_robot.py
 ```
+## Cirriculum
 
 ## Error You Might Run Into <br>
 ### Error 1: <br>
